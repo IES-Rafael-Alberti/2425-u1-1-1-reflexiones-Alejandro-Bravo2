@@ -99,3 +99,9 @@ He aprendido el comportamiento de un proceso cuando se ejecuta, tambíen las dis
    - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
 4. **Compilación y Ejecución:**
    - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+
+# Práctica 1.10: Preguntas sobre actividades
+## P 1.10: Reflexión y discusión sobre los resultados
+### 1. Relación software y hardware
+##### 1.1. Primera parte
+*1.1.1. ¿Cómo se ejecuta el código en el procesador?*
