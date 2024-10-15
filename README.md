@@ -115,7 +115,7 @@ La unidad de control se encargará de que todas las operaciones realizadas esté
 Cada vez que se deba mostrar algo en el dispositivo de salida lo hará la cpu interactuando con sus drivers de esos dispositivos de salida a través de los buses que se usan para pasar la información por la placa base.
 Representación gráfica del orden de ejecución de un programa
 
-IMAGEN
+![PDB prueba](asserts/alu.png)
 
 **DATO IMPORTANTE:**
 El procesador tiene 3 niveles en su caché:
@@ -136,6 +136,8 @@ Algoritmo por envejecimiento: Todos los datos se pasan a L1 y se esperan x ciclo
 
 
 Explicación gráfica de la explicación de la jerarquía de la caché:
+
+![PDB prueba](asserts/ram.png)
 
 **1.1.2. ¿Qué hace la memoria RAM con la información del botón o el LED?**
 La ram simplemente guarda la información del estado de ambos, el que se encarga de interactuar con esos valores es el procesador.
@@ -207,3 +209,120 @@ Un ejemplo claro de esto es la vulnerabilidad buffer overflow, esta vulnerabilid
  medio una máquina virtual o al menos dificultará realizar ese ataque.
 Optimización en tiempo de ejecución: Algunas máquinas virtuales convierten el código intermedio en código máquina 
 justo antes de que sea ejecutado por lo que optimiza el rendimiento del programa.
+
+**3.4. ¿Además de java, qué otros lenguajes usan máquinas virtuales?**
+Kotlin, ruby, scala.
+
+#### 4. Lenguajes de programación
+**4.1. Primera parte**
+**Compara el proceso de ejecución entre el lenguaje compilado y el interpretado.**
+**4.1.1. ¿Qué diferencias notaron en el proceso de compilación frente a la ejecución directa?**
+La principal diferencia es que tienes que pasar todo tu código fuente al código máquina usando el compilador además 
+de que cuando lo compilas te dirá si tiene algún fallo o no tu código mientras que en el lenguaje intérprete cuando lo 
+ejecutas la forma de su lectura va a ser línea por línea por lo que no sabrás si hay un error en alguna parte del código a 
+no ser que cuando lo estés probando llegues a esa parte.
+**4.1.2. ¿Qué pasa si hay un error de sintaxis en cada lenguaje? ¿Cuándo se detecta el error?**
+En el lenguaje compilado se detectaría dicho error al momento de la compilación mientras que en el lenguaje interpretado lo detectaremos una vez lo estemos ejecutando,
+#### 4.2. Segunda parte
+**Compara un lenguaje de alto nivel con uno de bajo nivel.**
+**4.2.1. ¿Qué notaron sobre la abstracción entre los lenguajes de alto nivel y bajo nivel?**
+Que en el bajo nivel tienes que encargarte de partes importantes como la asignación de celdas y la interacción del hardware,
+ mientras que en el de alto nivel el usuario solo se limita a entender su código pero no controla su código a nivel hardware.
+**4.2.2. ¿Qué ventajas y desventajas encontraron en cada uno?**
+Bajo nivel:
+-Ventaja: Permite un mayor rendimiento en los programas, mayor eficiencia de los recursos y control total del hardware.
+-Desventaja: Complejo de hacer
+Alto nivel:
+	-Ventaja: Permite hacer programas de forma general en respecto al hardware ya que no interactúan con él, más fácil de hacer y más legible para el humano.
+	-Desventaja: No control sobre el hardware, menor eficiencia de los recursos hardware.
+#### 4.3. Tercera parte
+**Compara un lenguaje orientado a objetos vs funcional.**
+**4.3.1. ¿Cómo funciona la organización de datos en Java usando objetos y métodos?**
+
+En java los objetos tienen: 
+-Atributos Características de cada objeto.
+-Métodos: La acción que hace cada objeto.
+**4.3.2. ¿Cómo es diferente trabajar en un enfoque funcional en Python, usando solo funciones puras?**
+La diferencia es que en la programación funcional se usan funciones para simplificar el código y reducirlo y las variables no tienen características únicas.
+#### 4.4. Reflexión final
+
+**4.4.1. ¿Qué lenguajes se sintieron más fáciles de usar? ¿Por qué?**
+El lenguaje que sentí más fácil de usar fue python ya que la sintaxis es sencilla y no te tienes que preocupar de cómo interactúa tu programa con el hardware.
+**4.4.2. ¿En qué casos es preferible usar un lenguaje compilado frente a uno interpretado?**
+En casos de portabilidad, controladores de hardware, aplicaciones, ciberseguridad.
+**4.4.3. ¿Cuándo es mejor usar un lenguaje de alto nivel en lugar de uno de bajo nivel?**
+Es preferible usar un lenguaje de bajo nivel cuando se va a realizar una tarea que requiera de control preciso del hardware.
+Se deberá usar un lenguaje de alto nivel para proyectos concretos sin importar los recursos que consuma.
+**4.4.4. ¿Cómo se siente trabajar con el paradigma orientado a objetos en comparación con el imperativo o funcional?**
+Se siente como si los datos que se manejan son seres vivos y les das características únicas y les das una función en su
+ vida mientras que con el imperativo o funcional se siente como si solo mandaras órdenes al ordenador y queriendo simplificar el código.
+#### 5. Herramientas de desarrollo
+**5.1. Primera parte**
+**Respecto a los procesos de creación de software identifica un conjunto de herramientas a usar.**
+**5.1.1. ¿Qué hace cada una de las herramientas?**
+
+1-Editores de texto: se usa para escribir y modificar el código fuente de los programas.
+2- Compiladores: Traduce código fuente a código máquina.
+3-Intérpretes: Ejecuta el código línea por línea, sin necesidad de compilarlo.
+4-Herramientas de documentación: Analizan el código fuente y generan documentación automáticamente a partir de comentarios y anotaciones.
+5-Depuradores: Nos permiten detener el programa en un punto específico y examinar su estado interno.
+6- Sistemas de gestión de versiones: Permiten rastrear los cambios en su código, trabajar en diferentes ramas de desarrollo y colaborar sin riesgo a sobreescribir el trabajo de otros.
+7-Framework: Proporciona una plantilla para desarrollar aplicaciones.
+8- Herramientas de pruebas y calidad del código: Permiten asegurar que el software funcione como se espera.
+**5.1.2. ¿Qué tipo de tareas facilita?**
+Tareas como documentar tu código fuente, asegurarte de que funcione correctamente, interpretar tu código fuente, realizar copias de seguridad, y muchas otras.
+**5.1.3. ¿Qué características ofrece que la hacen única o diferente de otras herramientas similares?**
+Que cada una se enfoca en algo en concreto y aunque parezcan similares la diferencia si se sabe usar la herramienta  puede ser grande.
+**5.1.4. Elige una ¿Cómo es la experiencia de usuario al usarla? ¿Es fácil o compleja?**
+He elegido la herramienta intérprete, es fácil usarla ya que cuando he ejecutado mis programas con python3 no he tenido que compilar ni realizar nada más.
+**5.1.5. Elige una ¿En qué situaciones sería ideal utilizar esta herramienta?**
+Herramienta de documentación: Desde mi punto de vista esta herramienta sería muy buena usarla en entornos de aprendizaje porque te explica para qué sirve cada parte del código.
+**5.1.6. Elige una ¿Qué limitaciones encontraste en la herramienta?**
+He elegido herramientas de documentación en concreto doxygen y una limitación es que no puede ser usada en todos los lenguajes de programación.
+**5.2. Segunda parte**
+**Céntrate en una herramienta dentro de la misma categoría y compárala con otras:**
+**5.2.1. ¿Qué herramienta se considera más útil y por qué?**
+
+Me voy a centrar en gip y la voy a comprar con svn.
+gip es mejor que svn en:
+	-Simplicidad: gip es más fácil de usar mientras que svn es más complejo cuando se trata de ramas y la fusión de ellas.
+	-Distribución: svn guarda los datos en un servidor central por lo que no se podría trabajar si no tenemos conexión ya que no guarda una copia de los datos de forma local.
+
+**5.2.2. ¿Qué ventajas tiene una sobre la otra?**
+Sus ventajas son:
+	-Simplicidad: gip es más fácil de usar mientras que svn es más complejo cuando se trata de ramas y la fusión de ellas.
+	-Distribución: svn guarda los datos en un servidor central por lo que no se podría trabajar si no tenemos conexión ya que no guarda una copia de los datos de forma local.
+**5.2.3. ¿Cuál herramienta resultó ser la más intuitiva y por qué?**
+Git porque los nombres de sus comandos te dicen lo que hacen. 
+**5.2.4. ¿En qué casos se recomendaría usar un compilador en lugar de un intérprete?**
+En casos de portabilidad, controladores de hardware, aplicaciones, ciberseguridad.
+**5.2.5. ¿Qué tipo de proyectos se benefician más de un framework como Django?**
+Una página web ya que django permite trabajar con el frontend y el backend a la vez
+**5.3. Reflexión final**
+**Con base en la experiencia de evaluación de las herramientas:**
+**5.3.1. ¿Cómo crees que impacta la elección de la herramienta en la calidad del software?**
+
+La calidad del software no va a depender de las herramientas ya que lo que hacen estas herramientas es ayudar 
+a realizar ese software pero no a mejorar su calidad. Pero si es verdad que son muy útiles para realizar copias de seguridad y entender el código.
+**5.3.2. ¿Qué características buscarías en una herramienta para facilitar tu flujo de trabajo?**
+Una herramienta que permita poner todo mis trabajos en las nubes para en caso de perder mi portátil, mantener esos datos sincronizados en algún lado.
+
+**5.3.3. ¿Cómo cambió tu percepción de estas herramientas después de haberlas probado y evaluado?**
+Realmente no las he probado todas pero las que he probado me han gustado y me gustaría usar sobre todo la de documentación para entregar los trabajos de este curso.
+
+**6.1.1 Los estudiantes deben utilizar GDB o PDB para depurar un programa simple y establecer puntos de interrupción. Evaluar la facilidad de seguimiento del flujo de ejecución, inspección de variables y detección de errores.**
+Aquí podemos ver como yo he puesto 2 depuradores para que se vea perfectamente la diferencia de tiempo entre uno y otro, 
+por ejemplo en el primer depurador yo intente ver el valor de una variable que aún no existía en ese momento y me dio error pero 
+yo sí podía ver los valores de las variables que si se existían en ese momento, luego use continue para continuar el programa y me 
+llevó al segundo depurador el cual verifique el valor de la variable que anteriormente me decía que no existía y esta vez sí me dio su valor.
+
+
+![PDB prueba](asserts/pdb.png)
+
+Para realizar la documentación usaremos pydoc3.12 -w y el nombre del fichero python pero quitando la extensión .py, 
+luego abriremos el fichero html que nos abría creado y entraríamos en el fichero para comprobar su información.
+
+
+![PDB prueba](asserts/documento.png)
+
+
