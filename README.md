@@ -20,7 +20,7 @@ Apoyate en los siguientes recursos para realizar la práctica:
 - **Alumno(s):**
   - **Nombre y Apellidos:** Alejandro Bravo Calderón
   - **Correo electrónico:** abracal@g.educaand.es
-  - **Iniciales del Alumno/Grupo:** abc
+  - **Iniciales del Alumno/Grupo:** ABC
 
 ## Descripción de la Actividad
 [Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
