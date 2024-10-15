@@ -91,9 +91,10 @@ con la funcionalidad de parar el código en un momento de su ejecución y poder 
 He aprendido el comportamiento de un proceso cuando se ejecuta, tambíen las distintas herramientas que 
 existen y además entender el funcionamiento de un compilador e interprete.
 ## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación 
-oficial, artículos, o cualquier recurso externo relevante.]
-
+De este video aprendi sobre los semgnetos de la ram
+https://www.youtube.com/watch?v=C06r6DfCxpA
+De este video aprendi como se ejecuta un proceso en el procesador
+https://www.youtube.com/watch?v=-URf73z9tKY
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
    - Asegúrate de que el nombre del archivo o repositorio siga la estructura definida: `XXX-idActividad-Iniciales`.
