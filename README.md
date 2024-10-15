@@ -23,7 +23,8 @@ Apoyate en los siguientes recursos para realizar la práctica:
   - **Iniciales del Alumno/Grupo:** ABC
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué 
+consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
@@ -80,15 +81,18 @@ FUNCTIONS
 - **Salida Esperada 1:** El resultado de la salida es un documento el cual te va a explicar línea a línea lo que hace cada parte del código.
 
 ### Resultados de Pruebas
-La verificicación del código se ha usado pgd que sirve para testear que tu código funcione correctamente pero con la funcionalidad de parar el código en un momento de su ejecución y poder comprobar los valores usados anteriormente.
+La verificicación del código se ha usado pgd que sirve para testear que tu código funcione correctamente pero 
+con la funcionalidad de parar el código en un momento de su ejecución y poder comprobar los valores usados anteriormente.
 ## Documentación Adicional
 - **Manual de Usuario:** https://github.com/IES-Rafael-Alberti/2425-u1-1-1-reflexiones-Alejandro-Bravo2
 - **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
 
 ## Conclusiones
-He aprendido el comportamiento de un proceso cuando se ejecuta, tambíen las distintas herramientas que existen y además entender el funcionamiento de un compilador e interprete.
+He aprendido el comportamiento de un proceso cuando se ejecuta, tambíen las distintas herramientas que 
+existen y además entender el funcionamiento de un compilador e interprete.
 ## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
+[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación 
+oficial, artículos, o cualquier recurso externo relevante.]
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
@@ -111,8 +115,10 @@ Cuando se lea esa celda se usarán los datos correspondientes para realizar la o
 Además aumentará en  1 el registro contador de programa que se encuentra en la UC (unidad de control).
 El registro de instrucciones guardará la dirección de la dirección de memoria que se está ejecutando.
 A continuación la alu realizará la operación y la guardará en el registro acumulador. 
-La unidad de control se encargará de que todas las operaciones realizadas estén correctas además también es el encargado de la comunicación entre la alu y la memoria principal y el resto de componentes.
-Cada vez que se deba mostrar algo en el dispositivo de salida lo hará la cpu interactuando con sus drivers de esos dispositivos de salida a través de los buses que se usan para pasar la información por la placa base.
+La unidad de control se encargará de que todas las operaciones realizadas estén correctas además también es
+ el encargado de la comunicación entre la alu y la memoria principal y el resto de componentes.
+Cada vez que se deba mostrar algo en el dispositivo de salida lo hará la cpu interactuando con sus drivers
+ de esos dispositivos de salida a través de los buses que se usan para pasar la información por la placa base.
 Representación gráfica del orden de ejecución de un programa
 
 ![PDB prueba](asserts/alu.png)
@@ -125,7 +131,9 @@ L2: En este nivel se almacenarán los datos de forma temporal  que son consultad
 L3: En este nivel se almacenarán los datos de forma temporal  que son consultados rara vez pero siempre se consultan.
 
 Razonamiento:
-He explicado esto porque cuando se ejecuta un programa (conjunto de código) el programa no va a estar siempre cargado en la caché por lo que era necesario explicar esto para que se sepa realmente lo que pasa también con ese programa a lo largo del tiempo.
+He explicado esto porque cuando se ejecuta un programa (conjunto de código) el programa no va a estar siempre 
+cargado en la caché por lo que era necesario explicar esto para que se sepa realmente lo que pasa también 
+con ese programa a lo largo del tiempo.
 
 Explicación del algoritmo de envejecimiento:
 Algoritmo por envejecimiento: Todos los datos se pasan a L1 y se esperan x ciclos y si ese dato no ha sido reutilizado
@@ -161,10 +169,15 @@ Periféricos: Mandarán los datos recibidos por el dispositivo de entrada al pro
 El programa el cual estaba almacenado en la memoria secundaria pasa a la memoria principal y la cpu va ejecutando las instrucciones una por una.
 
 **1.2.3. ¿Qué roles juegan las instrucciones del software en esta interacción?**
-Las instrucciones son básicamente el código ejecutable que procesará el procesador por lo que las instrucciones tendrían un rol como si fueran leyes o normas a seguir.
+Las instrucciones son básicamente el código ejecutable que procesará el procesador por lo que las instrucciones 
+tendrían un rol como si fueran leyes o normas a seguir.
 
 **1.2.4. ¿Cómo se relaciona esta simulación con lo que ocurre en un ordenador real?**
-Cuando ejecutamos algo primeros hacemos doble click sobre algo o ejecutamos por terminal por lo que eso provocaría unos datos numéricos en ASCII guardados en la ram pero con una prioridad,el procesador leería esos datos numéricos y le asignaría un espacio en la memoria ram a ese programa, luego el procesador movería de la memoria secundaria a la memoria principal el programa, el procesador interactúa con las instrucciones guardadas en ese programa llevándolas a cada segmento reservado del espacio asignado por el procesador:
+Cuando ejecutamos algo primeros hacemos doble click sobre algo o ejecutamos por terminal por lo que eso 
+provocaría unos datos numéricos en ASCII guardados en la ram pero con una prioridad,el procesador leería esos
+ datos numéricos y le asignaría un espacio en la memoria ram a ese programa, luego el procesador movería de
+  la memoria secundaria a la memoria principal el programa, el procesador interactúa con las instrucciones 
+  guardadas en ese programa llevándolas a cada segmento reservado del espacio asignado por el procesador:
 Segmentos:
 -Segmento de texto: se guarda todo el código ejecutable del programa. SOLO LECTURA
 -Segmento de datos: se guarda las variables globales y estáticas que son inicializadas pro el programa.
@@ -178,10 +191,16 @@ Cada instrucción se guarda en una celda distinta la cual es identificada por un
 
 El procesador aumentará el contador de programa por cada celda ejecutada.
 
-La ALU (Unidad aritmética lógica) realiza las operaciones matemáticas necesarias de cada parte del código que es traída de cada celda y ese valor es llevado al acumulador que irá actualizando su valor.
+La ALU (Unidad aritmética lógica) realiza las operaciones matemáticas necesarias de cada parte del código que es traída 
+de cada celda y ese valor es llevado al acumulador que irá actualizando su valor.
 El acumulador incrementará su valor en función de las operaciones realizadas.
 La unidad de control se encargará de que todas las operaciones realizadas estén correctas.
-Cada vez que se deba mostrar algo en el dispositivo de salida lo hará la cpu interactúa con el hardware a través de sus drivers para poder mandar el mensaje al dispositivo de salida.
+Cada vez que se deba mostrar algo en el dispositivo de salida lo hará la cpu interactúa con el hardware a través de sus 
+drivers para poder mandar el mensaje al dispositivo de salida.
+
+Un dato importante es que si alguna parte de un proceso en casó de estar en un estado de bloqueo o suspendido se
+ pasará a la memoria virtual (mecanismo que permite almacenar datos de forma temporal en las unidades de discos duros, inconveniente: es muy lenta)
+
 #### 2. Del código fuente al ejecutable
 **2.1. ¿Cómo se diferencia el código fuente del código objeto y del ejecutable?**
 DIferencia:
@@ -222,7 +241,8 @@ de que cuando lo compilas te dirá si tiene algún fallo o no tu código mientra
 ejecutas la forma de su lectura va a ser línea por línea por lo que no sabrás si hay un error en alguna parte del código a 
 no ser que cuando lo estés probando llegues a esa parte.
 **4.1.2. ¿Qué pasa si hay un error de sintaxis en cada lenguaje? ¿Cuándo se detecta el error?**
-En el lenguaje compilado se detectaría dicho error al momento de la compilación mientras que en el lenguaje interpretado lo detectaremos una vez lo estemos ejecutando,
+En el lenguaje compilado se detectaría dicho error al momento de la compilación mientras que en el
+ lenguaje interpretado lo detectaremos una vez lo estemos ejecutando,
 #### 4.2. Segunda parte
 **Compara un lenguaje de alto nivel con uno de bajo nivel.**
 **4.2.1. ¿Qué notaron sobre la abstracción entre los lenguajes de alto nivel y bajo nivel?**
@@ -266,32 +286,42 @@ Se siente como si los datos que se manejan son seres vivos y les das caracterís
 3-Intérpretes: Ejecuta el código línea por línea, sin necesidad de compilarlo.
 4-Herramientas de documentación: Analizan el código fuente y generan documentación automáticamente a partir de comentarios y anotaciones.
 5-Depuradores: Nos permiten detener el programa en un punto específico y examinar su estado interno.
-6- Sistemas de gestión de versiones: Permiten rastrear los cambios en su código, trabajar en diferentes ramas de desarrollo y colaborar sin riesgo a sobreescribir el trabajo de otros.
+6- Sistemas de gestión de versiones: Permiten rastrear los cambios en su código, trabajar en 
+diferentes ramas de desarrollo y colaborar sin riesgo a sobreescribir el trabajo de otros.
 7-Framework: Proporciona una plantilla para desarrollar aplicaciones.
 8- Herramientas de pruebas y calidad del código: Permiten asegurar que el software funcione como se espera.
 **5.1.2. ¿Qué tipo de tareas facilita?**
-Tareas como documentar tu código fuente, asegurarte de que funcione correctamente, interpretar tu código fuente, realizar copias de seguridad, y muchas otras.
+Tareas como documentar tu código fuente, asegurarte de que funcione correctamente, interpretar tu código 
+fuente, realizar copias de seguridad, y muchas otras.
 **5.1.3. ¿Qué características ofrece que la hacen única o diferente de otras herramientas similares?**
-Que cada una se enfoca en algo en concreto y aunque parezcan similares la diferencia si se sabe usar la herramienta  puede ser grande.
+Que cada una se enfoca en algo en concreto y aunque parezcan similares la diferencia si se sabe usar la 
+herramienta  puede ser grande.
 **5.1.4. Elige una ¿Cómo es la experiencia de usuario al usarla? ¿Es fácil o compleja?**
-He elegido la herramienta intérprete, es fácil usarla ya que cuando he ejecutado mis programas con python3 no he tenido que compilar ni realizar nada más.
+He elegido la herramienta intérprete, es fácil usarla ya que cuando he ejecutado mis programas con 
+python3 no he tenido que compilar ni realizar nada más.
 **5.1.5. Elige una ¿En qué situaciones sería ideal utilizar esta herramienta?**
-Herramienta de documentación: Desde mi punto de vista esta herramienta sería muy buena usarla en entornos de aprendizaje porque te explica para qué sirve cada parte del código.
+Herramienta de documentación: Desde mi punto de vista esta herramienta sería muy buena usarla en
+ entornos de aprendizaje porque te explica para qué sirve cada parte del código.
 **5.1.6. Elige una ¿Qué limitaciones encontraste en la herramienta?**
-He elegido herramientas de documentación en concreto doxygen y una limitación es que no puede ser usada en todos los lenguajes de programación.
+He elegido herramientas de documentación en concreto doxygen y una limitación es que no puede ser
+ usada en todos los lenguajes de programación.
 **5.2. Segunda parte**
 **Céntrate en una herramienta dentro de la misma categoría y compárala con otras:**
 **5.2.1. ¿Qué herramienta se considera más útil y por qué?**
 
 Me voy a centrar en gip y la voy a comprar con svn.
 gip es mejor que svn en:
-	-Simplicidad: gip es más fácil de usar mientras que svn es más complejo cuando se trata de ramas y la fusión de ellas.
-	-Distribución: svn guarda los datos en un servidor central por lo que no se podría trabajar si no tenemos conexión ya que no guarda una copia de los datos de forma local.
+	-Simplicidad: gip es más fácil de usar mientras que svn es más complejo cuando se trata de 
+   ramas y la fusión de ellas.
+	-Distribución: svn guarda los datos en un servidor central por lo que no se podría trabajar 
+   si no tenemos conexión ya que no guarda una copia de los datos de forma local.
 
 **5.2.2. ¿Qué ventajas tiene una sobre la otra?**
 Sus ventajas son:
-	-Simplicidad: gip es más fácil de usar mientras que svn es más complejo cuando se trata de ramas y la fusión de ellas.
-	-Distribución: svn guarda los datos en un servidor central por lo que no se podría trabajar si no tenemos conexión ya que no guarda una copia de los datos de forma local.
+	-Simplicidad: gip es más fácil de usar mientras que svn es más complejo cuando se trata de 
+   ramas y la fusión de ellas.
+	-Distribución: svn guarda los datos en un servidor central por lo que no se podría trabajar 
+   si no tenemos conexión ya que no guarda una copia de los datos de forma local.
 **5.2.3. ¿Cuál herramienta resultó ser la más intuitiva y por qué?**
 Git porque los nombres de sus comandos te dicen lo que hacen. 
 **5.2.4. ¿En qué casos se recomendaría usar un compilador en lugar de un intérprete?**
@@ -303,18 +333,27 @@ Una página web ya que django permite trabajar con el frontend y el backend a la
 **5.3.1. ¿Cómo crees que impacta la elección de la herramienta en la calidad del software?**
 
 La calidad del software no va a depender de las herramientas ya que lo que hacen estas herramientas es ayudar 
-a realizar ese software pero no a mejorar su calidad. Pero si es verdad que son muy útiles para realizar copias de seguridad y entender el código.
+a realizar ese software pero no a mejorar su calidad. Pero si es verdad que son muy útiles para 
+realizar copias de seguridad y entender el código.
 **5.3.2. ¿Qué características buscarías en una herramienta para facilitar tu flujo de trabajo?**
-Una herramienta que permita poner todo mis trabajos en las nubes para en caso de perder mi portátil, mantener esos datos sincronizados en algún lado.
+
+Una herramienta que permita poner todo mis trabajos en las nubes para en caso de perder mi portátil, 
+mantener esos datos sincronizados en algún lado.
+
 
 **5.3.3. ¿Cómo cambió tu percepción de estas herramientas después de haberlas probado y evaluado?**
-Realmente no las he probado todas pero las que he probado me han gustado y me gustaría usar sobre todo la de documentación para entregar los trabajos de este curso.
+Realmente no las he probado todas pero las que he probado me han gustado y me gustaría usar sobre todo 
+la de documentación para entregar los trabajos de este curso.
 
 **6.1.1 Los estudiantes deben utilizar GDB o PDB para depurar un programa simple y establecer puntos de interrupción. Evaluar la facilidad de seguimiento del flujo de ejecución, inspección de variables y detección de errores.**
-Aquí podemos ver como yo he puesto 2 depuradores para que se vea perfectamente la diferencia de tiempo entre uno y otro, 
-por ejemplo en el primer depurador yo intente ver el valor de una variable que aún no existía en ese momento y me dio error pero 
-yo sí podía ver los valores de las variables que si se existían en ese momento, luego use continue para continuar el programa y me 
-llevó al segundo depurador el cual verifique el valor de la variable que anteriormente me decía que no existía y esta vez sí me dio su valor.
+Aquí podemos ver como yo he puesto 2 depuradores para que se vea perfectamente la diferencia 
+de tiempo entre uno y otro, 
+por ejemplo en el primer depurador yo intente ver el valor de una variable que aún no existía en 
+ese momento y me dio error pero 
+yo sí podía ver los valores de las variables que si se existían en ese momento, luego use continue 
+para continuar el programa y me 
+llevó al segundo depurador el cual verifique el valor de la variable que anteriormente me decía que 
+no existía y esta vez sí me dio su valor.
 
 
 ![PDB prueba](asserts/pdb.png)
