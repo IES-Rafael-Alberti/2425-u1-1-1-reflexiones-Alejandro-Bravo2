@@ -12,7 +12,7 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
+- **ID de la Actividad:** 530151
 - **Módulo:** PROG
 - **Unidad de Trabajo:** 1.1 Reflexiones
 - **Fecha de Creación:** 13/10/2024
@@ -27,45 +27,66 @@ Apoyate en los siguientes recursos para realizar la práctica:
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   -  Python3 y pydoc
 
 2. **Pasos para Compilar el Código:**
-   ```bash
+   ``` No hay
    [Comando para compilar el código]
    ```
 
 3. **Pasos para Ejecutar el Código:**
-   ```bash
+   ```pydoc <archivo>
    [Comando para ejecutar la aplicación]
    ```
 
 4. **Ejecución de Pruebas:**
-   ```bash
+   ```No hay
    [Comandos para ejecutar pruebas, si las hubiera]
    ```
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
-
+Se ha realizado la actividad abordando el temario complementario de esta unidad.
 ### Código Fuente
 [Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
 
 ### Ejemplos de Ejecución
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
+- **Entrada 1:**
+```
+Help on module pruebas_python:
+
+NAME
+    pruebas_python - Este módulo contiene funciones para trabajar con números.
+
+FUNCTIONS
+    es_par(numero)
+        Determina si un número es par.
+
+        Args:
+            numero (int): El número que queremos verificar.
+
+        Returns:
+            bool: True si el número es par, False en caso contrario.
+
+    suma(a, b)
+        Calcula la suma de dos números.
+
+        Args:
+            a (int): El primer número.
+            b (int): El segundo número.
+
+        Returns:
+```
+- **Salida Esperada 1:** El resultado de la salida es un documento el cual te va a explicar línea a línea lo que hace cada parte del código.
 
 ### Resultados de Pruebas
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
-
+La verificicación del código se ha usado pgd que sirve para testear que tu código funcione correctamente pero con la funcionalidad de parar el código en un momento de su ejecución y poder comprobar los valores usados anteriormente.
 ## Documentación Adicional
-- **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
+- **Manual de Usuario:** https://github.com/IES-Rafael-Alberti/2425-u1-1-1-reflexiones-Alejandro-Bravo2
 - **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
 
 ## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
-
+He aprendido el comportamiento de un proceso cuando se ejecuta, tambíen las distintas herramientas que existen y además entender el funcionamiento de un compilador e interprete.
 ## Referencias y Fuentes
 [Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
 
