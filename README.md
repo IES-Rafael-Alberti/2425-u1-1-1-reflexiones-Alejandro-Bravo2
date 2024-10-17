@@ -192,7 +192,7 @@ Cada instrucción se guarda en una celda distinta la cual es identificada por un
 
 El procesador aumentará el contador de programa por cada celda ejecutada.
 
-La ALU (Unidad aritmética lógica) realiza las operaciones matemáticas necesarias de cada parte del código que es traída 
+La ALU (Unidad aritmética lógica) realiza las operaciones matemáticas y lógicas necesarias de cada parte del código que es traída 
 de cada celda y ese valor es llevado al acumulador que irá actualizando su valor.
 El acumulador incrementará su valor en función de las operaciones realizadas.
 La unidad de control se encargará de que todas las operaciones realizadas estén correctas.
